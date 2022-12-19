@@ -1,5 +1,4 @@
-﻿// Домашняя работа1.
-
+﻿
 // Задача 1. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
 
 /*
@@ -32,7 +31,7 @@ while(current <= num)
 {     Console.Write(current + " ");
       current++; 
       }
-*/
+
 
 12345 / 10 = 1234
 12345 / 100 = 123
@@ -45,5 +44,40 @@ while(current <= num)
 12345 % 10000 = 2345
 12345 % 100000 = 12345
 
-191763
+*/ 
+// Homework1
+
+// Task 1: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+/*
+Console.Write("Enter a number "); 
+int num1 = Convert.ToInt32(Console.ReadLine()); 
+Console.Write("Enter a number "); 
+int num2 = Convert.ToInt32(Console.ReadLine());
+if (num1 > num2)
+{
+      Console.WriteLine("one number " + num1 + " more than the second " + num2);
+   }
+else
+{
+    Console.WriteLine("two number " + num2 + " more that the first " + num1);
+} 
+*/
+
+// Task 4:  Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+/*
+Console.Write("Enter a number "); 
+int num1 = Convert.ToInt32(Console.ReadLine()); 
+Console.Write("Enter a number "); 
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter a number "); 
+int num3 = Convert.ToInt32(Console.ReadLine());
+int max=num1;
+if (num2 > max)
+max = num2;
+if (num3 > max)
+max = num3;
+        Console.WriteLine("Number max " + max);
+/*
 
